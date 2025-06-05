@@ -1,28 +1,28 @@
 {
-    "chatgpt": {
-      "free": {
-        "other": "5/1h"
-      },
-      "base": {
-        "auto": "50/3h",
-        "text-davinci-002-render-sha": "100/3h",
-        "gpt-4o-mini": "100/3h",
-        "gpt-4o": "15/3h",
-        "gpt-4": "10/3h",
-        "gpt-4o-canmore": "10/3h",
-        "o1-preview": "2/168h",
-        "o1-mini": "5/168h"
-      },
-      "pro": {
-        "auto": "1000/3h",
-        "text-davinci-002-render-sha": "1000/3h",
-        "gpt-4o-mini": "300/3h",
-        "gpt-4o": "60/3h",
-        "gpt-4": "30/3h",
-        "gpt-4o-canmore": "30/3h",
-        "o1-preview": "30/168h",
-        "o1-mini": "100/168h"
-      }
+  "chatgpt": {
+    "free": {
+      "other": "5/1h"
     },
-    "other": "40/3h"
-  }
+    "base": {
+      "auto": "50/3h",
+      "text-davinci-002-render-sha": "100/3h",
+      "gpt-4o-mini": "100/3h",
+      "gpt-4o": "15/3h",
+      "gpt-4": "10/3h",
+      "gpt-4o-canmore": "10/3h",
+      "o1-preview": "2/168h",
+      "o1-mini": "5/168h"
+    },
+    "pro": {
+      "auto": "1000/3h",
+      "text-davinci-002-render-sha": "1000/3h",
+      "gpt-4o-mini": "300/3h",
+      "gpt-4o": "60/3h",
+      "gpt-4": "30/3h",
+      "gpt-4o-canmore": "30/3h",
+      "o1-preview": "30/168h",
+      "o1-mini": "100/168h"
+    }
+  },
+  "other": "40/3h"
+} 

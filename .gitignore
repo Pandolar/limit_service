@@ -1,0 +1,60 @@
+# Go编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+limit_service
+limit_service-linux
+
+# 测试二进制文件和覆盖率
+*.test
+*.out
+coverage.html
+coverage.out
+
+# 构建目录
+build/
+dist/
+
+# 依赖目录
+vendor/
+
+# Go工作区文件
+go.work
+go.work.sum
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# OS生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Redis dump文件（如果在本地运行Redis）
+dump.rdb
+
+# 备份文件
+*.bak
+*.backup 
