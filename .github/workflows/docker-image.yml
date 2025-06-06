@@ -24,7 +24,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Set up Docker image name
-        run: echo "IMAGE_NAME=py-audit-limit" >> $GITHUB_ENV 
+        run: echo "IMAGE_NAME=limit_service" >> $GITHUB_ENV 
 
       - name: Build and tag Docker image
         run: |
